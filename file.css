@@ -4,10 +4,6 @@
 *{
     font-family: 'Inter', sans-serif;
 }
-body{
-    height: 100%;
-    width: 100%;
-}
 .columns{
     display: flex;
     width: fit-content;
