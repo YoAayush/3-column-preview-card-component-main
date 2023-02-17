@@ -13,9 +13,9 @@ body{
     width: fit-content;
     /* padding: 6rem 0rem 0rem 15rem; */
     position: absolute;
-    top: 21.5%;
-    left: 17.5%;
-    /* transform: translate(-50%, -50%); */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .columns .first{
     background-color: hsl(31, 77%, 52%);
