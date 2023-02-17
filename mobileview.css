@@ -1,4 +1,4 @@
-@media screen and (max-width: 950px){
+@media screen and (max-width: 650px){
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
 
     *{
@@ -75,6 +75,12 @@
     }
     .attribution{
         position: absolute;
-        margin: 82rem 5rem;
+        margin: 58rem 0rem;
+        width: fit-content;
+        height: fit-content;
+    }
+    .attribution p{
+        height: fit-content;
+        width: fit-content;
     }
 }
