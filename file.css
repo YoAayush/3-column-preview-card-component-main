@@ -72,10 +72,20 @@ div .para{
     box-shadow: 1px 3px gray;
 }
 .attribution{
-    position: absolute;
-    top: 35rem;
-    left: 26rem;
+    text-align: center;
+    margin: auto;
+    padding: 33rem 0rem;
 }
+/* .attribution{
+    width: fit-content; 
+    height: fit-content;
+    position: absolute; 
+    padding: 37rem 30rem; 
+}
+.attribution p{
+    height: fit-content;
+    width: fit-content;
+} */
 b{
     color: rgb(78, 68, 231);
 }
