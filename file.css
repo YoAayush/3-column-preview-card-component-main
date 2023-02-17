@@ -73,7 +73,8 @@ div .para{
 }
 .attribution{
     position: absolute;
-    margin: 35rem 25rem;
+    top: 35rem;
+    left: 26rem;
 }
 b{
     color: rgb(78, 68, 231);
