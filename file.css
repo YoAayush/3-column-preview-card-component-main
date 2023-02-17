@@ -1,0 +1,83 @@
+@media screen and (min-width: 950px) and (max-width: 1440px){
+    @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap');
+
+*{
+    font-family: 'Inter', sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.columns{
+    display: flex;
+    width: fit-content;
+    /* padding: 6rem 0rem 0rem 15rem; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.columns .first{
+    background-color: hsl(31, 77%, 52%);
+    width: 18rem;
+    height: 25rem;
+}
+.columns .second{
+    background-color: hsl(184, 100%, 22%);
+    width: 18rem;
+    height: 25rem;
+}
+.columns .third{
+    background-color: hsl(179, 100%, 13%);
+    width: 18rem;
+    height: 25rem;
+}
+div .image{
+    width: fit-content;
+    margin: 2rem 2rem;
+}
+div .heading{
+    font-size: 25px;
+    margin: 2rem 2rem;
+    color: aliceblue;
+}
+div .para{
+    width: 230px;
+    margin-left: 2rem;
+}
+.para p{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 14px;
+    color: aliceblue;
+}
+.button{
+    margin: 5rem 2rem;
+}
+.first .button input{
+    color: hsl(31, 77%, 52%);
+}
+.second .button input{
+    color: hsl(184, 100%, 22%);
+}
+.third .button input{
+    color: hsl(179, 100%, 13%);
+}
+.button input{
+    width: 140px;
+    height: 45px;
+    border-color: aliceblue;
+    border-radius: 10rem;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 1px 3px gray;
+}
+.attribution{
+    position: absolute;
+    margin: 36rem 27rem;
+}
+b{
+    color: rgb(78, 68, 231);
+}
+}
+
+
