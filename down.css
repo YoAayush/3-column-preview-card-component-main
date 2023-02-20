@@ -8,5 +8,6 @@
     transform: translate(-50%, -30%);
     width: fit-content;
     height: fit-content;
+    z-index: -1;
 }
 }
