@@ -71,6 +71,8 @@ div .para{
     text-align: center;
     margin: auto;
     padding: 33rem 0rem;
+    height: fit-content;
+    width: fit-content;
 }
 /* .attribution{
     width: fit-content; 
